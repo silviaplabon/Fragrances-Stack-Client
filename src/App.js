@@ -25,7 +25,6 @@ function App() {
       <Router>
         <Header></Header>
         <Switch>
-
           <PrivateRoute  exact path="/admin">
             <Admin></Admin>
           </PrivateRoute >
@@ -43,6 +42,9 @@ function App() {
           </Route>
           <PrivateRoute  exact path="/addProducts">
             <AddProducts></AddProducts>
+          </PrivateRoute >
+          <PrivateRoute  exact path="/manageProducts">
+            <ManageProducts></ManageProducts>
           </PrivateRoute >
           <Route  exact path="*">
             <NotFound></NotFound>
