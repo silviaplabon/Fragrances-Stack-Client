@@ -16,6 +16,7 @@ import Order from './components/Order/Order';
 import ManageProducts from './components/ManageProducts/ManageProducts';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Admin from './components/Admin/Admin';
+import NotFound from './components/NotFound/NotFound';
 export const UserContext = createContext();
 function App() {
   const [loggedInUser, setLoggedInUser] = useState({});
@@ -43,9 +44,9 @@ function App() {
           <PrivateRoute  exact path="/addProducts">
             <AddProducts></AddProducts>
           </PrivateRoute >
-          <PrivateRoute  exact path="/manageProducts">
-            <ManageProducts></ManageProducts>
-          </PrivateRoute >
+          <Route  exact path="*">
+            <NotFound></NotFound>
+          </Route >
         </Switch>
       </Router>
     </UserContext.Provider>
