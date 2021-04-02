@@ -1,0 +1,18 @@
+.tableStyle{
+    border-radius:0.70rem;
+}
+
+@media only screen and (min-device-width: 305px) and (max-device-width:566px) {
+    .tableStyle{
+        padding-left:6px!important;
+        padding-right:6px!important;
+    }
+    .orderSection{
+        width:90%!important;
+    }
+}
+@media only screen and (min-device-width: 200px) and (max-device-width:304px) {
+    .orderSection{
+        width:99%!important;
+    }
+}

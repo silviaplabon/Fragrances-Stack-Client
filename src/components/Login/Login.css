@@ -1,0 +1,21 @@
+.loginAnchor{
+    cursor:pointer;
+}
+
+.hrStyle{
+    height:2!important;
+}
+.cardSignStyle{
+     border:1px solid gray;
+     border-radius:0.65rem!important;
+}
+@media only screen and (min-device-width: 200px) and (max-device-width: 628px) {
+   .rowLogin{
+       margin: 0 7%!important;
+       width:85%!important;
+       padding:0% 1%!important;
+   }
+   .buttonText{
+       font-size:18px!important;
+   }
+}

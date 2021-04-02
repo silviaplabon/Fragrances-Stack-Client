@@ -1,0 +1,64 @@
+.divStyleOrder {
+    width: 46%!important;
+    margin-left: 2%;
+    border-radius: 0.75rem!important;
+}
+
+.cardStyle {
+    border: 0px!important;
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 768px) {
+    .cardBodyStyle {
+        padding: 0px!important;
+        margin-left:0.30rem!important;
+    }
+}
+@media only screen and (min-device-width: 576px) and (max-device-width: 991px) {
+    .h5Style {
+        font-size: 15px!important;
+        margin-bottom:0px!important;
+    }
+    .pStyle{
+        font-size:12px!important;
+    }
+    .colStyle {
+        padding: 5px!important;
+        margin:0px;
+    }
+    .pStyle{
+        margin-bottom:0!important;
+    }
+    .cardBodyStyle {
+        padding:0!important;
+    }
+}
+
+@media only screen and (min-device-width: 442px) and (max-device-width: 575px) {
+    .h5Style {
+        font-size: 17px!important;
+    }
+    .colStyle {
+        padding: 0px!important;
+    }
+    .cardBodyStyle {
+        margin: 0 0.25rem;
+    }
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width:442px) {
+    .h5Style {
+        font-size: 13px!important;
+        /* margin:0px!important; */
+    }
+    /* .pStyle{
+        margin:0px!important;
+    } */
+    .colStyle {
+        padding: 0px!important;
+        margin: 0 0.10rem!important;
+    }
+    .pStyle{
+        font-size:12px!important;
+    }
+}

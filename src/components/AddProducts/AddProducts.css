@@ -1,0 +1,46 @@
+.formStyle {
+    border-radius: 0.70rem;
+    background-color: white!important;
+}
+
+.formSection {
+    /* background-color: #F4FCFB; */
+    /* background: linear-gradient( 270deg, #05f0ff 30%, #963cff) #963cff; */
+    background-color: #2D524A;
+    padding-bottom: 30%!important;
+    padding-top: 10%!important;
+}
+
+.navbarAddProduct {
+    /* background-color: #36003C; */
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.addProductStyle {
+    /* background-color: #05f0ff; */
+    background-color: #2D524A;
+}
+
+.iconSize{
+    font-size:30px!important;
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width:768px) {
+    .linkProduct {
+        width: 70%!important;
+        margin:0 auto!important;
+    }
+    a {
+        font-size: 20px!important;
+    }
+}
+
+@media (min-device-width:768px) {
+    .linkProduct {
+        width: 90%!important;
+    }
+    a {
+        font-size: 16px!important;
+    }
+}
