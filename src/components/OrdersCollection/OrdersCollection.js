@@ -45,14 +45,14 @@ const OrdersCollection = () => {
                 </div>
                     :
                     <div className="userDetails  m-auto text-center bgColorOrders mt-5 p-2">
-                        <h4 className="text-warning">Please Wait</h4>
+                        <h4 className="">Please Wait</h4>
                         {
                             spinner &&
                             <div className="text-center">
                                 <div class="spinner-grow text-warning mt-5" role="status" style={{ width: '2rem', height: '2rem' }}>
                                     <span class="visually-hidden">Loading...</span>
                                 </div>
-                                <h6 className="mt-5 text-warning">Sorry, this may take some time  for showing orders or you don't have any order! </h6>
+                                <h6 className="mt-4">Sorry, this may take some time  for showing orders or you don't have any order! </h6>
                             </div>
                         }
                     </div>
