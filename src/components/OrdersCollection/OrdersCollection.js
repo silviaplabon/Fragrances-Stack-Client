@@ -7,7 +7,7 @@ const OrdersCollection = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const [spinner, setSpinner] = useState(true);
     useEffect(() => {
-        fetch('http://localhost:4200/orders?email=' + loggedInUser.email,
+        fetch('https://pumpkin-tart-15792.herokuapp.com/orders?email=' + loggedInUser.email,
             {
                 method: 'GET',
                 headers: {

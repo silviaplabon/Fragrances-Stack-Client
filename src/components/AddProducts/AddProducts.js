@@ -17,7 +17,7 @@ const AddProducts = () => {
       price: data.price,
       weight: data.weight
     };
-    const url = `http://localhost:4200/addProduct`;
+    const url = `https://pumpkin-tart-15792.herokuapp.com/addProduct`;
 
     fetch(url, {
       method: 'POST',

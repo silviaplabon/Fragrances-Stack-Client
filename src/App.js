@@ -24,16 +24,6 @@ function App() {
       <Router>
         <Header></Header>
         <Switch>
-          {/* <Route path="/shop">
-          <Shop></Shop>
-        </Route>
-    
-        <PrivateRoute path="/inventory">
-          <Inventory></Inventory>
-        </PrivateRoute> */}
-          <Route exact path="/manageProducts">
-            <ManageProducts></ManageProducts>
-          </Route>
           <PrivateRoute  exact path="/admin">
             <Admin></Admin>
           </PrivateRoute >
@@ -46,24 +36,9 @@ function App() {
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route path="/login">
+          <Route exact  path="/login">
             <Login></Login>
           </Route>
-          <Route exact path="/addProducts">
-            <AddProducts></AddProducts>
-          </Route>
-          {/* <PrivateRoute path="/products">
-          <AddProducts></AddProducts>
-        </PrivateRoute> */}
-          {/* <Route exact path="/">
-          <Shop></Shop>
-        </Route>
-        <Route path="/product/:productKey">
-          <ProductDetail></ProductDetail>
-        </Route> */}
-          {/* <Route path="*">
-          <NotFound></NotFound>
-        </Route> */}
         </Switch>
       </Router>
     </UserContext.Provider>

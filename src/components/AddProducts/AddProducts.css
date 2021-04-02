@@ -34,6 +34,15 @@
     a {
         font-size: 20px!important;
     }
+    .addProductStyle {
+        background-color:#ffc107;
+        margin-top:2rem!important;
+    
+    }
+    .navbarAddProduct{
+         margin-top:3rem!important;
+         border-radius:0.50rem!important;    text-align:center;
+    }
 }
 
 @media (min-device-width:768px) {

@@ -1,13 +1,13 @@
 #Super Riders
 This Website developed by React,React-Router,React-hooks,HTML,CSS,Bootstrap
 
-Github Repository Client Site: [Fragrancies Stack](https://github.com/Porgramming-Hero-web-course/full-stack-client-silviaplabon ).
+Github Repository Client Site: [Fragrances Stack](https://github.com/Porgramming-Hero-web-course/full-stack-client-silviaplabon ).
 
-Github Repository Server Site: [Fragrancies Stack](https://github.com/Porgramming-Hero-web-course/full-stack-server-silviaplabon ).
+Github Repository Server Site: [Fragrances Stack](https://github.com/Porgramming-Hero-web-course/full-stack-server-silviaplabon ).
 
-Live link Client: [Fragrancies Stack]( ).
+Live link Client: [Fragrances Stack](https://productcollection-silvia.web.app/).
 
-Live link Server: [Fragrancies Stack](https://pumpkin-tart-15792.herokuapp.com/).
+Live link Server: [Fragrances Stack](https://pumpkin-tart-15792.herokuapp.com/).
 
 
 
@@ -20,7 +20,6 @@ Live link Server: [Fragrancies Stack](https://pumpkin-tart-15792.herokuapp.com/)
 3.Shows dynamic home page .
 
 4.Use Route parameter dynamically.
-
 
 5.Used fontAwesome Icons.
 
@@ -35,4 +34,6 @@ Live link Server: [Fragrancies Stack](https://pumpkin-tart-15792.herokuapp.com/)
 10.User can add and delete a product.
 
 11.User can process order which will store at mongodb database.
+
+12.User can only see order which replaced by him.
 

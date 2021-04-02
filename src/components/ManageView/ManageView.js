@@ -5,7 +5,7 @@ import { faTrashAlt, faEdit } from '@fortawesome/free-solid-svg-icons';
 const ManageView = (props) => {
     const { name, price, weight, _id } = props.product;
     const handleDelete = (id) => {
-        fetch(`http://localhost:4200/deleteProduct/${id}`, {
+        fetch(`https://pumpkin-tart-15792.herokuapp.com/deleteProduct/${id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())

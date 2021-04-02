@@ -8,7 +8,7 @@ const Order = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const { name, weight, price } = product;
     useEffect(() => {
-        fetch(`http://localhost:4200/product/${id}`)
+        fetch(`https://pumpkin-tart-15792.herokuapp.com/product/${id}`)
             .then(response => response.json())
             .then(data => {
                 setProduct(data);
@@ -17,7 +17,7 @@ const Order = () => {
     const handleCheckout = () => {
         const orderDetails = { ...loggedInUser, product: product, OrderTime: new Date().toDateString('dd/MM/yyyy') };
         console.log(orderDetails)
-        fetch('http://localhost:4200/addOrder', {
+        fetch('https://pumpkin-tart-15792.herokuapp.com/addOrder', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

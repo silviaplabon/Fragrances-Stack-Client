@@ -7,7 +7,7 @@ import './ManageProducts.css';
 const ManageProducts = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:4200/productsdata')
+        fetch('https://pumpkin-tart-15792.herokuapp.com/productsdata')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
