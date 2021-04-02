@@ -52,10 +52,10 @@ const AddProducts = () => {
           </div>
         </div>
         <div className="col-md-12  m-auto  py-3 linkProduct">
-          <Link to="/manageProducts" className="" ><FontAwesomeIcon className="iconSize me-2" icon={faPlus} /> Manage Products</Link>
+          <Link to="/manageProducts" className="" ><FontAwesomeIcon className="iconSize me-2" icon={faPlus} />Manage Products</Link>
         </div>
         <div className="col-md-12 m-auto py-2 linkProduct">
-          <Link to="/admin" className=""><FontAwesomeIcon className="iconSize me-2" icon={faEdit} /> Edit Product</Link>
+          <Link to="/admin" className=""><FontAwesomeIcon className="iconSize me-2" icon={faEdit} />Edit Product</Link>
         </div>
       </div>
 
