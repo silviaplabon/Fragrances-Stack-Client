@@ -1,0 +1,36 @@
+a {
+    color: black!important;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.liHeaderStyle {
+    list-style-type: none!important;
+}
+
+.navbarCollapseStyle {
+    text-align: center;
+}
+.nameShow{
+        padding:0px!important;
+        background-color:orange!important;
+        border-radius:0.65rem!important;
+    }
+.buttonStyleHeader{
+    border-radius:0.70rem!important;
+}
+.h2HeaderColor{
+    color: #2D524A;
+}
+@media (max-device-width:991px){
+    .logStyle{
+        margin-top:0.65rem!important;
+    }
+    .buttonStyleHeader{
+       margin-left:0!important;
+       margin-right:0!important;
+       
+    }
+}
+
+
