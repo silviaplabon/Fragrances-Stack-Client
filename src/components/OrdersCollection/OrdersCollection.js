@@ -45,11 +45,18 @@ const OrdersCollection = () => {
                 </div>
                     :
                     <div className="userDetails  m-auto text-center bgColorOrders mt-5 p-2">
-                        <h4>Please Order!</h4>
-                        <h6>Sorry,you don't have any order!</h6>
+                        <h4>Please Wait</h4>
+                        {
+                            spinner &&
+                            <div className="text-center">
+                                <div class="spinner-grow text-warning mt-5" role="status" style={{ width: '2rem', height: '2rem' }}>
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                                <h6>Sorry,This may take some time  for showing orders or you don't have any product </h6>
+                            </div>
+                        }
                     </div>
             }
-            
             <div className="row row-cols-1 row-cols-md-2   row-cols-sm-1 m-auto g-4">
                 {
                     orders.map(order => <OrderShow order={order}></OrderShow>)
