@@ -24,6 +24,7 @@ function App() {
       <Router>
         <Header></Header>
         <Switch>
+
           <PrivateRoute  exact path="/admin">
             <Admin></Admin>
           </PrivateRoute >
@@ -39,6 +40,12 @@ function App() {
           <Route exact  path="/login">
             <Login></Login>
           </Route>
+          <PrivateRoute  exact path="/addProducts">
+            <AddProducts></AddProducts>
+          </PrivateRoute >
+          <PrivateRoute  exact path="/manageProducts">
+            <ManageProducts></ManageProducts>
+          </PrivateRoute >
         </Switch>
       </Router>
     </UserContext.Provider>
