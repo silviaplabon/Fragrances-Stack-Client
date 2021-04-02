@@ -52,7 +52,7 @@ const OrdersCollection = () => {
                                 <div class="spinner-grow text-warning mt-5" role="status" style={{ width: '2rem', height: '2rem' }}>
                                     <span class="visually-hidden">Loading...</span>
                                 </div>
-                                <h6 className="mt-4">Sorry, this may take some time  for showing orders or you don't have any order! </h6>
+                                <h6 className="mt-4">Sorry, this may take some  times  for showing orders collection or you don't have any order! </h6>
                             </div>
                         }
                     </div>
