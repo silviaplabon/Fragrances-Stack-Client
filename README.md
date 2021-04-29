@@ -1,7 +1,7 @@
 #Fragrances Stack
 This Website developed by React,React-Router,React-hooks,HTML,CSS,Bootstrap
 
-Github Repository Client Site: [Fragrances Stack](https://github.com/Porgramming-Hero-web-course/full-stack-client-silviaplabon ).
+Github Repository Client Site: [Fragrances Stack](https://github.com/silviaplabon/Fragrences-Stack-Client/).
 
 Github Repository Server Site: [Fragrances Stack](https://github.com/Porgramming-Hero-web-course/full-stack-server-silviaplabon ).
 
