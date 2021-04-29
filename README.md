@@ -3,7 +3,7 @@ This Website developed by React,React-Router,React-hooks,HTML,CSS,Bootstrap
 
 Github Repository Client Site: [Fragrances Stack](https://github.com/silviaplabon/Fragrences-Stack-Client/).
 
-Github Repository Server Site: [Fragrances Stack](https://github.com/Porgramming-Hero-web-course/full-stack-server-silviaplabon ).
+Github Repository Server Site: [Fragrances Stack](hhttps://github.com/silviaplabon/Fragrences-Stack-Server ).
 
 Live link Client: [Fragrances Stack](https://productcollection-silvia.web.app/).
 
